@@ -302,12 +302,3 @@ erDiagram
 15. Begin CRUD implementation
 ```
 
-## Relationship Summary
-
-- users 1—∞ jobs (as client)
-- users 1—∞ bids (as freelancer)
-- jobs 1—∞ bids; **unique pair** (job, freelancer)
-- bids 1—0..1 contracts (only `accepted` bid becomes a contract)
-- contracts 1—0..2 reviews (one per participant)
-- users ∞—∞ skills via `user_skills`
-- jobs ∞—∞ skills via `job_skills`
