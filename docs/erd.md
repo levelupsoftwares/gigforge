@@ -1,6 +1,3 @@
-Yes — the issue is that the outer Markdown code block gets broken by the inner ` ``` ` blocks. I should use **one single outer code block** and avoid nested fences entirely.
-
-```md
 # GigForge — Entity Relationship Diagram
 
 > Schema designed before writing SQLAlchemy models. Alembic migrations must match this.
