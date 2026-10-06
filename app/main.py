@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 
+from app.api.v1.endpoints.health import router as health_router
+
 app = FastAPI()
 
-@app.get('/health')
-async def health():
-    return {'message':"server is running"}
+app.include_router(
+    health_router,
+    prefix="/api/v1",
+)
