@@ -12,7 +12,7 @@
 
 | **Layer** | **Choice** | **Why** |
 | --------- | ---------- | ------- |
-| Language | Python 3.12 | Stable, typed, strong backend ecosystem |
+| Language | Python 3.14 | Stable, typed, strong backend ecosystem |
 | Framework | FastAPI | High-performance ASGI framework with async support and automatic OpenAPI documentation |
 | Database | PostgreSQL 16 | Strong relational integrity for jobs, bids, contracts, and reviews |
 | ORM | SQLAlchemy 2.0 (async) | Mature ORM with typed models and async support |
